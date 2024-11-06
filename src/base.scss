@@ -1,0 +1,37 @@
+html {
+    font-size: 10px !important;
+}
+body {
+    font-size: 1.6rem;
+    line-height: 1.7;
+    letter-spacing: 0.13em;
+    background-color: $color5;
+    color: $color1;
+    @extend .noto;
+}
+.sp {
+    display: none;
+    @include sp {
+        display: block;
+    }
+}
+
+.pc {
+    display: block;
+    @include sp {
+        display: none;
+    }
+}
+.page-width {
+    width: 100%;
+    max-width: $page-width;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    margin: 0 auto;
+    &.narrow {
+        max-width: calc($page-width - 320px);
+    }
+    &.wide {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,52 @@
+ion-toolbar {
+  --background: rgba(0, 162, 106, 1);
+}
+
+ion-title {
+  --color: rgba(255, 255, 255, 1) !important;
+}
+
+.namebox {
+  margin-top: 5px;
+  display: flex;
+}
+
+ion-card-title {
+  font-size: 2em;
+  margin-left: 6em;
+  position: absolute;
+  top: 50%;
+  --color:rgba(255, 255, 255, 1);
+}
+
+ion-card {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 380px;
+  --background: rgba(0, 162, 106, 1);
+}
+
+ion-card-subtitle {
+  position: absolute;
+  padding-left: 12em;
+  top: 70%;
+  --color:rgba(255, 255, 255, 1);
+}
+
+.phone_number {
+  font-size: 1.2em;
+  color: #ffff;
+}
+
+.image_content {
+  width: 170px;
+  height: 40.3px;
+  top: 10px;
+  right: 10px;
+  position:fixed;
+}
+
+.phone_content {
+  padding-top: 0;
+  padding-bottom: 6px;
+}
